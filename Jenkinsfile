@@ -5,7 +5,8 @@ pipeline {
 		stage('Recibir Git') {
 			steps {
 				sh "ARCHIVOS=`ls`"
-				sh "cat ${ARCHIVOS}"
+				//sh "cat ${ARCHIVOS}"
+				cat Jenkinsfile
 			}
 		}
 	}
