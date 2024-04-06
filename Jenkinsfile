@@ -5,7 +5,7 @@ pipeline {
 		stage('Recibir Git') {
 			steps {
 				sh "ARCHIVOS=`ls`"
-				cat ${ARCHIVOS}
+				sh "cat ${ARCHIVOS}"
 			}
 		}
 	}
