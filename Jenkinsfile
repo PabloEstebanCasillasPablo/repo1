@@ -6,7 +6,7 @@ pipeline {
 			steps {
 				sh "ARCHIVOS=`ls`"
 				//sh "cat ${ARCHIVOS}"
-				cat Jenkinsfile
+				sh "cat Jenkinsfile"
 			}
 		}
 	}
