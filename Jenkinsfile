@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage('Ejecutar script') {
 			steps {
-				sh "pwsh -c script1.ps1"
+				sh "pwsh -c ./script1.ps1"
 			}
 		}
 	}
