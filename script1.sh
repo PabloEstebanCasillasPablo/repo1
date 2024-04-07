@@ -1,2 +1,2 @@
-pwsh -c Invoke-ScriptAnalyzer -severity error -severity warning severity information -path ./script1.ps1 -enableexit
+pwsh -c Invoke-ScriptAnalyzer -severity error,warning,information -path ./script1.ps1 -enableexit
 echo $?
