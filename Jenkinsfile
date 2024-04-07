@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage('Ejecutar script') {
 			steps {
-				sh "pwsh -c Invoke-Scriptanalyzer -path ./script1.ps1 -enableexit -severity error,warning,information"
+				sh "./script1.sh"
 			}
 		}
 	}
