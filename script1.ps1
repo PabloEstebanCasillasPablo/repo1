@@ -1,1 +1,2 @@
-gps | select -first 1
+# gps | select -first 1
+get-module -listavailable
