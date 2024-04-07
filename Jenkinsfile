@@ -2,10 +2,9 @@ pipeline {
 	agent any
 	
 	stages {
-		stage('Recibir Git') {
+		stage('Ejecutar script') {
 			steps {
-				sh "ARCHIVOS=`ls`"
-				sh "for ARCHIVO in $ARCHIVOS; do cat ${ARCHIVO}; done"
+				sh "pwsh -c script1.ps1"
 			}
 		}
 	}
