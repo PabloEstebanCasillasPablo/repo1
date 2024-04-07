@@ -1,1 +1,1 @@
-get-process | select -first 1
+Install-Module -Name PSScriptAnalyzer -Scope CurrentUser
